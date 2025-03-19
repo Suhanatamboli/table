@@ -1,0 +1,133 @@
+/* 🌟 General Styling */
+body {
+    background: linear-gradient(135deg, #f0f0f0, #dbeafe);
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* 📝 Headings */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* ✅ Form Styling */
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+form:hover {
+    transform: scale(1.02);
+}
+
+/* 🔥 Labels & Inputs */
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* 🌟 Input Focus */
+input:focus, select:focus {
+    box-shadow: 0 0 10px #5dade2;
+    outline: none;
+}
+
+/* 🛠️ Button Styling */
+button {
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 128, 0, 0.4);
+}
+
+/* 🔍 Filter Input */
+#filter {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#filter:focus {
+    box-shadow: 0 0 12px #ffcc00;
+}
+
+/* 🥗 Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* ✅ Table Headers */
+th {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+th:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* ✅ Table Cells */
+td {
+    padding: 12px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+/* 🍽️ Alternating Row Colors */
+tbody tr:nth-child(odd) {
+    background: #f1f8ff;
+}
+
+tbody tr:nth-child(even) {
+    background: #ffffff;
+}
+
+/* 🎯 Hover Effect */
+tbody tr:hover {
+    background: #d4edda;
+    transition: all 0.3s;
+    transform: scale(1.01);
+}
+
+/* ✅ Availability Badges */
+td:contains("✅ Available") {
+    color: #28
